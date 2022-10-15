@@ -18,6 +18,7 @@ import os
 # It uses the following color table to do so:
 #ensure the color name is in lower case
 COLORS = {}
+COLORS['darkaqua']="00696f"
 COLORS['frost']="81a1c1"
 COLORS['lavender']="b48ead"
 COLORS['rose']="ea495f"

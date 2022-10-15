@@ -23,7 +23,7 @@
        id="selected_bg_color"
        inkscape:swatch="solid">
       <stop
-         style="stop-color:#b48ead;stop-opacity:1;"
+         style="stop-color:#00696F;stop-opacity:1;"
          offset="0"
          id="stop4421" />
     </linearGradient>
@@ -220,7 +220,7 @@
          y="0"
          x="0" />
       <g
-         style="fill:#b48ead;fill-opacity:1"
+         style="fill:#00696F;fill-opacity:1"
          transform="translate(25,2.9999812)"
          id="g5140-7">
         <rect
@@ -315,7 +315,7 @@
          y="0"
          x="0" />
       <g
-         style="fill:#b48ead;fill-opacity:1"
+         style="fill:#00696F;fill-opacity:1"
          transform="translate(22.999996,-1.0000226)"
          id="g5193-7">
         <rect

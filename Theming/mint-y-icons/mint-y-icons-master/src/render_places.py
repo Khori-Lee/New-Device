@@ -3,7 +3,7 @@ import os
 import subprocess
 import sys
 
-colors = ["Frost","Lavender","Rose","Rose", "Greenishgrey", "Pinkish","Burgundy", "Aqua", "Blue", "Brown", "Green", "Grey", "Orange","Pastel", "Pink", "Purple", "Red", "Sand", "Teal", "Yellow"]
+colors = ["Darkaqua","Frost","Lavender","Rose","Rose", "Greenishgrey", "Pinkish","Burgundy", "Aqua", "Blue", "Brown", "Green", "Grey", "Orange","Pastel", "Pink", "Purple", "Red", "Sand", "Teal", "Yellow"]
 sizes = ["16", "22", "24", "32", "48", "64", "96", "128"]
 
 
@@ -48,7 +48,7 @@ def parse_arg(arg):
 
 def usage():
     print ("Usage: render_places.py color \n\
-    color can be: Frost, Lavender, Rose, Rose, Greenishgrey,  Pinkish, Burgundy, Aqua, Blue, Brown, Green, Grey, Orange, Pastel, Pink, Purple, Red, Sand, Teal, Yellow or All.")
+    color can be: Darkaqua, Frost, Lavender, Rose, Rose, Greenishgrey,  Pinkish, Burgundy, Aqua, Blue, Brown, Green, Grey, Orange, Pastel, Pink, Purple, Red, Sand, Teal, Yellow or All.")
     sys.exit(1)
 
 if len(sys.argv) != 2:

@@ -14,7 +14,7 @@
 theme_count=0
 
 # what themes are we going to create
-arrayname=(Lavender)
+arrayname=(Darkaqua)
 
 # or just a few
 # arrayname=(Nice-blue Pale-grey)
@@ -30,10 +30,10 @@ for m in "${arrayname[@]}"
 
     case "${m}" in
 
-    Lavender)
-        # #b48ead
-        choice="Lavender"
-        newcolour1="b48ead"
+    Darkaqua)
+        # #00696F
+        choice="Darkaqua"
+        newcolour1="00696F"
         ;;
     # Vampire)
     #     # #555a69
