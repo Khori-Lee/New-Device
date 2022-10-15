@@ -20,7 +20,7 @@ git add --all .
 
 # Committing to the local repository containing the time details
 curtime=$(date)
-git commit -m "Script update from $curtime"
+git commit -m "Script update $curtime"
 
 # Push the local files to github
 
