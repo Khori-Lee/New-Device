@@ -12,8 +12,8 @@ echo
 
 cd ~/DATA/Theme-Icon-Packs/
 
-setup-git-v1.sh
+sh setup-git-v1.sh
 
 echo
 
-git-v3-auto.sh
+sh git-v3-auto.sh
