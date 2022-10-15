@@ -1,3 +1,3 @@
 # New-Device
 
-# Most files sourced from Arc theme and turtorial of Erikdubois..
+Most files sourced from Arc theme and turtorial of Erikdubois..
