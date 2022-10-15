@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/DATA/New-System/Theming/arcolinux-arc-themes/
+cd ~/DATA/New-Device/Theming/arcolinux-arc-themes/
 
 ./1-get-the-necessary-software.sh
 

@@ -8,9 +8,9 @@ echo "################################################################## "
 echo "                          Renaming Folder                          "
 echo "################################################################## "
 
-mv ~/DATA/New-System/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Mint-Y-$color/ ~/DATA/New-System/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color/
+mv ~/DATA/New-Device/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Mint-Y-$color/ ~/DATA/New-Device/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color/
 
-cd ~/DATA/New-System/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color/places
+cd ~/DATA/New-Device/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color/places
 rm -r *2x
 
 echo
@@ -18,9 +18,9 @@ echo "################################################################## "
 echo "                 Copying files and Update Index.theme              "
 echo "################################################################## "
 
-cp -r ~/DATA/New-System/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Mint-Y/Special_Icons/* ~/DATA/New-System/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color
+cp -r ~/DATA/New-Device/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Mint-Y/Special_Icons/* ~/DATA/New-Device/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color
 
-sed -i 's|Name=Surfn Mint Y|Name=Surfn Mint Y '$color'|' ~/DATA/New-System/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color/index.theme 
+sed -i 's|Name=Surfn Mint Y|Name=Surfn Mint Y '$color'|' ~/DATA/New-Device/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color/index.theme 
 
 echo
 echo "################################################################## "
@@ -28,8 +28,8 @@ echo "                  Creating New Icon Theme Cache                    "
 echo "################################################################## "
 echo
 
-cd ~/DATA/New-System/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color/
-sh ~/DATA/New-System/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color/create-new-icon-theme.cache.sh
+cd ~/DATA/New-Device/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color/
+sh ~/DATA/New-Device/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color/create-new-icon-theme.cache.sh
 
 echo
 echo "################################################################## "
@@ -38,8 +38,8 @@ echo "################################################################## "
 
 cd ~/.icons/
 rm -r Surfn-Mint-Y-$color
-cd ~/DATA/New-System/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/
-mv ~/DATA/New-System/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color/ ~/.icons/
+cd ~/DATA/New-Device/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/
+mv ~/DATA/New-Device/Theming/mint-y-icons/mint-y-icons-master/usr/share/icons/Surfn-Mint-Y-$color/ ~/.icons/
 
 echo
 echo "################################################################## "
