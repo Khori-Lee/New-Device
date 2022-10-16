@@ -1,16 +1,16 @@
 #!/bin/bash
 
-rm -rf ~/DATA/Theme-Icon-Packs/
+rm -rf ~/DATA/theme-icon-packs/
 
-git clone https://github.com/Khori-Lee/Theme-Icon-Packs.git ~/DATA/Theme-Icon-Packs
+git clone https://github.com/Khori-Lee/theme-icon-packs.git ~/DATA/theme-icon-packs
 
 
-cp -r ~/.icons/* ~/DATA/Theme-Icon-Packs/.icons/
-cp -r ~/.themes/* ~/DATA/Theme-Icon-Packs/.themes/
+cp -r ~/.icons/* ~/DATA/theme-icon-packs/user/share/icons/
+cp -r ~/.themes/* ~/DATA/theme-icon-packs/user/share/themes/
 
 echo
 
-cd ~/DATA/Theme-Icon-Packs/
+cd ~/DATA/theme-icon-packs/
 
 sh setup-git-v1.sh
 
