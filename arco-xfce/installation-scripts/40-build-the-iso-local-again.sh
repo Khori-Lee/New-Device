@@ -200,7 +200,7 @@ echo
 
 	echo "Getting the last version of bashrc in /etc/skel"
 	echo
-	wget https://raw.githubusercontent.com/arcolinux/arcolinux-root/master/etc/skel/.bashrc-latest -O $buildFolder/archiso/airootfs/etc/skel/.bashrc
+	wget https://raw.githubusercontent.com/Khori-Lee/my-xfce-config/main/.bashrc-latest -O $buildFolder/archiso/airootfs/etc/skel/.bashrc
 
 	echo "Removing the old packages.x86_64 file from build folder"
 	rm $buildFolder/archiso/packages.x86_64
