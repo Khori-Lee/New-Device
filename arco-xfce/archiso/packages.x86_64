@@ -295,6 +295,7 @@ gnome-sudoku
 xdman
 whatsapp-nativefier
 visual-studio-code-bin
+firefox-adblock-plus
 
 ###conky
 #jq
@@ -321,7 +322,7 @@ ttf-ubuntu-font-family
 ##my personal fonts
 ttf-wps-fonts
 ttf-meslo-nerd-font-powerlevel10k
-ttf-material-design-icons-extended
+
 
 
 ###icons
@@ -458,7 +459,7 @@ ttf-ms-fonts
 #paper-icon-theme
 # sardi-icons
 surfn-icons-git
-surfn-mint-y-icons-git
+#surfn-mint-y-icons-git
 #surfn-arc-breeze-icons-git
 #zafiro-icon-theme
 
@@ -517,10 +518,11 @@ yay-bin
 ###########################################################################
 #                           ARCOLINUX FOLDER
 ###########################################################################
+##my-xfce-config might conflict will remove if it does
 
 #arcolinux-alacritty-git
 # arcolinux-arc-kde
-arcolinux-bin-git
+#arcolinux-bin-git 
 #arcolinux-candy-beauty-git
 #arcolinux-common-git
 arcolinux-conky-collection-git
@@ -534,7 +536,7 @@ arcolinux-fonts-git
 arcolinux-grub-theme-vimix-git
 #arcolinux-gtk3-arcolinux-candy-beauty-git
 # arcolinux-gtk3-sardi-arc-git
-arcolinux-gtk3-surfn-arc-git
+#arcolinux-gtk3-surfn-arc-git
 #arcolinux-gtk3-surfn-arc-breeze-git
 #arcolinux-gtk3-surfn-plasma-dark-git
 #arcolinux-guake-autostart-git
@@ -543,10 +545,10 @@ arcolinux-keyring
 # arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
-arcolinux-local-applications-git
+#arcolinux-local-applications-git
 # arcolinux-local-applications-all-hide-git
 #arcolinux-local-applications-plasma-hide-git
-arcolinux-local-xfce4-git
+#arcolinux-local-xfce4-git
 #arcolinux-logo-git
 archlinux-logout-git
 #archlinux-logout-themes-git
@@ -554,7 +556,7 @@ archlinux-logout-git
 #arcolinux-lxqt-applications-hide-git
 #arcolinux-meta-logout
 arcolinux-mirrorlist-git
-arcolinux-neofetch-git
+#arcolinux-neofetch-git
 #arcolinux-nitrogen-git
 #arcolinux-oblogout
 #arcolinux-oblogout-themes-git
@@ -572,7 +574,7 @@ arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
 #arcolinux-rofi-git
 #arcolinux-rofi-themes-git
-arcolinux-root-git
+#arcolinux-root-git
 #arcolinux-slim
 #arcolinux-slimlock-themes-git
 arcolinux-system-config-git
@@ -584,12 +586,12 @@ arcolinux-systemd-services-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 archlinux-tweak-tool-git
-arcolinux-variety-git
+#arcolinux-variety-git
 arcolinux-variety-autostart-git
 #arcolinux-volumeicon-git
 arcolinux-wallpapers-git
 #arcolinux-wallpapers-dual-git
-arcolinux-xfce-panel-profiles-git
+#arcolinux-xfce-panel-profiles-git
 #arcolinux-xmobar-git
 # arcolinux-zsh-git
 
@@ -629,7 +631,7 @@ arcolinux-xfce-panel-profiles-git
 #arcolinux-ukui-git
 #arcolinux-worm-git
 #arcolinux-wmderland-git
-arcolinux-xfce-git
+#arcolinux-xfce-git
 #arcolinux-xmonad-polybar-git
 #arcolinux-xmonad-xmobar-git
 
